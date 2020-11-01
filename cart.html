@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rainy Days | Home</title>
+    <meta name="description" content="Rain jackets for men and women" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img
+          src="/images/logo_blue_rainyDays.png"
+          alt="Logo RainyDays"
+          class="header-logo"
+      /></a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html" class="cart-menu">
+        <img src="images/shopping-cart.svg" alt="cart-icon" />
+        <span>Shopping Cart</span>
+        <div class="badge">1</div>
+      </a>
+    </header>
+    <main class="main-row">
+      <section>
+        <h2>SHIPPING AND INVOICING DETAILS</h2>
+        <form class="shipping-form">
+          <label for="name">
+            Name
+            <input
+              class="input"
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Name here..."
+            />
+          </label>
+          <label for="address">
+            Adress
+            <input
+              class="input"
+              id="address"
+              type="text"
+              name="address"
+              placeholder="Adress here..."
+            />
+          </label>
+          <label for="email">
+            E-mail
+            <input
+              class="input"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="E-mail here..."
+            />
+          </label>
+          <label for="phone">
+            Phone
+            <input
+              class="input"
+              id="phone"
+              type="number"
+              name="phone"
+              placeholder="Phone here..."
+            />
+          </label>
+          <button type="submit">COMPLETE</button>
+        </form>
+      </section>
+      <section class="cart-details">
+        <div class="cart-header">
+          <span>1 Item</span>
+          <button>Edit</button>
+        </div>
+        <div class="cart-items">
+          <div class="cart-item">
+            <div class="cart-item-image"></div>
+            <span class="cart-item-title">Rain Dear</span>
+            <strong>$199.99</strong>
+          </div>
+        </div>
+        <table>
+          <tr>
+            <td>Sum</td>
+            <td>$199.99</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Taxes</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>TOTAL</td>
+            <td>$199.99</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
