@@ -51,7 +51,7 @@ nav ul li {
 
 nav ul li:hover {
   transform: scale(1.05);
-  transition: transform .6s;
+  transition: transform .2s;
 }
 
 nav a:focus {
@@ -132,7 +132,7 @@ nav a:focus {
 .cart-item-image {
   width: 138px;
   height: 138px;
-  background-image: url("../images/1920-195k-lie-down.jpg");
+  background-image: url("../images/womans-rain-dear-photographer.png");
   background-size: cover;
 }
 
@@ -144,6 +144,7 @@ nav a:focus {
   background-image: url("../images/1920-195k-lie-down.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 400px;
 }
 
 .hero-section h1 {
@@ -228,6 +229,12 @@ footer {
   display: flex;
   align-items: center;
 }
+
+.left-to-right{
+  display: inline-flex;
+  padding: 50px;
+}
+  
 
 
 /* Responsive */
